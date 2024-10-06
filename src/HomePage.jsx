@@ -37,9 +37,8 @@ const HomePage = () => {
   return (
     <div className="container mx-auto p-4">
       <nav className=" p-4 text-white flex justify-between m-0">
-          <Link to="/" className="btn bg-primary mr-4">Home</Link>
-          <Link to="/add-character" className="btn bg-primary mr-4">Add Character</Link>
-          <div>
+          <Link to="/" className="btn bg-primary mr-4 text-white">Home</Link>
+          
       <input 
         type="text" 
         placeholder="Search by name" 
@@ -50,7 +49,7 @@ const HomePage = () => {
         <button className="btn bg-primary text-white p-2  mb-4">Add New Character</button>
       </Link>
 
-          </div>
+          
         </nav>
 
       <h1 className="text-2xl font-bold mb-4">Characters List</h1>
